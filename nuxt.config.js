@@ -61,6 +61,11 @@ export default {
     detectBrowserLanguage: false,
   },
 
+  sitemap: {
+    hostname: 'https://www.superdev.tech',
+    gzip: true,
+  },
+
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
