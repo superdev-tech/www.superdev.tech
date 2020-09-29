@@ -4,6 +4,7 @@ steps:
     entrypoint: npm
     args: ['install']
   - id: 'generate_dist'
+    name: node
     entrypoint: npm
     args: ['run', 'generate:$_ENV_MODE']
   - id: 'move_dist_to_storage'
