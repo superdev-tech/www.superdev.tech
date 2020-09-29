@@ -9,4 +9,4 @@ steps:
     args: ['run', 'generate:$_ENV_MODE']
   - id: 'move_dist_to_storage'
     name: gcr.io/cloud-builders/gsutil
-    args: ['-m', 'rsync', '-r', '-c', '-d', './dist', 'gs://v2.tumwebsme.com']
+    args: ['-m', 'rsync', '-r', '-c', '-d', './dist', 'gs://v2.superdev.tech']
