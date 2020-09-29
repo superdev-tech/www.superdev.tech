@@ -40,7 +40,26 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+
+    'nuxt-i18n',
+
+    '@nuxtjs/robots',
+
+    // always declare the sitemap module at end of array
+    '@nuxtjs/sitemap',
   ],
+
+  i18n: {
+    seo: true,
+    lazy: true,
+    langDir: 'locales/',
+    defaultLocale: 'th',
+    locales: [
+      { name: 'English', code: 'en', iso: 'en-US', file: 'en.json' },
+      { name: 'ภาษาไทย', code: 'th', iso: 'th-TH', file: 'th.json' },
+    ],
+    detectBrowserLanguage: false,
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},

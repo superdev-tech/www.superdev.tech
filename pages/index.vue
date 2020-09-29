@@ -7,7 +7,11 @@
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to Superdev V2 {{ $config.apiSecret }}
+          {{
+            `${$t('landingPage.welcome')} ${$t('landingPage.superdev')} ${
+              $config.apiSecret
+            }`
+          }}
         </v-card-title>
         <v-card-text>
           <p>

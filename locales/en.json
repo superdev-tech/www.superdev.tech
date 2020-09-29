@@ -1,0 +1,52 @@
+{
+  "landingPage": {
+    "welcome": "WELCOME TO",
+    "superdev": "SUPERDEV"
+  },
+  "ourService": {
+    "title": "Our Service",
+    "web": {
+      "title": "Web Application",
+      "description": "What are the important things on the website? Beautiful, Fast load, The lastest Technologies, Security, Suitable for your business? We can include it all to become your perfect website."
+    },
+    "mobile": {
+      "title": "Hybrid Mobile\nApplication",
+      "description": "By Using Flutter, an open-source created by Google. We can make the professional Hybrid Applications (Android / iOS) for your business."
+    },
+    "data": {
+      "title": "Data Science",
+      "description": "Raw data is like rough diamonds that need some processes. We can transform your raw data to be the most beautiful and precious cut diamonds."
+    }
+  },
+  "techStack": {
+    "title": "Our Main Tech Stack"
+  },
+  "ourStory": {
+    "title": "Our Story",
+    "description": "Since 2020, Superdev has established as a startup company by experienced software engineers, who developed software for worldwide international companies and the Thailand government departments. The founder aims to create a hub of designer and developer for building high-quality and efficient software at a reasonable price."
+  },
+  "contactUs": {
+    "companyName": "Superdev Co., Ltd.",
+    "companyAddress": "74 Soi Ramkhamheang 82, Huamark,<br>Bangkapi, Bangkok 10240",
+    "line": "Line",
+    "facebook": "Facebook",
+    "title": "Contact Us",
+    "subTitle": "Send us message",
+    "name": "Name*",
+    "email": "Email*",
+    "phone": "Phone Number*",
+    "message": "Message*",
+    "submit": "Submit",
+    "formError": {
+      "name": "Name is required",
+      "email1": "Email is required",
+      "email2": "E-mail must be valid",
+      "phone": "Phone Number is required",
+      "message": "Message is required"
+    },
+    "thanksMessage": {
+      "title": "Thank you for your interest",
+      "detail": "ทีมงานของเราจะติดต่อหาคุณเร็วๆ นี้ หากต้องการติดต่ออย่างรวดเร็วกรุณาโทร +6685-809-1536 หรือ +6691-936-9626"
+    }
+  }
+}
