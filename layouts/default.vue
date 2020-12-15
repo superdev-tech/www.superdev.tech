@@ -87,5 +87,30 @@ export default {
       title: 'Vuetify.js',
     }
   },
+  mounted() {},
+  head() {
+    const i18nSeo = this.$nuxtI18nSeo()
+    const localHead = this.$t('head')
+    return {
+      title: localHead.title,
+      htmlAttrs: {
+        ...i18nSeo.htmlAttrs,
+      },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        ...localHead.meta,
+        ...i18nSeo.meta,
+      ],
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico',
+        },
+        ...i18nSeo.link,
+      ],
+    }
+  },
 }
 </script>

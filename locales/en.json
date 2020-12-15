@@ -1,4 +1,14 @@
 {
+  "head": {
+    "title": "Superdev ma law",
+    "meta": [
+      {
+        "hid": "description",
+        "name": "description",
+        "content": "test test"
+      }
+    ]
+  },
   "landingPage": {
     "welcome": "WELCOME TO",
     "superdev": "SUPERDEV"

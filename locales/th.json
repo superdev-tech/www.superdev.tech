@@ -1,4 +1,14 @@
 {
+  "head": {
+    "title": "ซุปเปอร์เดฟมาแล้ว",
+    "meta": [
+      {
+        "hid": "description",
+        "name": "description",
+        "content": "เทส เทส"
+      }
+    ]
+  },
   "landingPage": {
     "welcome": "ยินดีต้อนรับสู่",
     "superdev": "ซูเปอร์เดฟ"
