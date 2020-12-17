@@ -8,16 +8,77 @@ export default {
   target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
-  // head: {
-  //   titleTemplate: '%s - superdev.tech',
-  //   title: 'superdev.tech',
-  //   meta: [
-  //     { charset: 'utf-8' },
-  //     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-  //     { hid: 'description', name: 'description', content: '' },
-  //   ],
-  //   link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  // },
+  head: {
+    title: `Superdev — Build Web/Mobile Apps and Data science works for your business`,
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description-en',
+        name: 'description',
+        lang: 'en-US',
+        content: `We're a software development company in Bangkok, Thailand`,
+      },
+      {
+        hid: 'description-th',
+        name: 'description',
+        lang: 'th-TH',
+        content: `พวกเราเป็นบริษัทที่ตั้งอยู่ในกรุงเทพมหานคร รับพัฒนาเว็บไซต์และแอพพลิเคชันแบบครบวงจร`,
+      },
+      {
+        hid: 'fb-og-type',
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'fb-og-url',
+        property: 'og:url',
+        content: 'https://www.superdev.tech/',
+      },
+      {
+        hid: 'fb-og-title',
+        property: 'og:title',
+        content: `Superdev — Build Web/Mobile Apps and Data science works for your business`,
+      },
+      {
+        hid: 'fb-og-description',
+        property: 'og:description',
+        content: `We're a software development company in Bangkok, Thailand`,
+      },
+      {
+        hid: 'fb-og-image',
+        property: 'og:image',
+        content: `https://www.superdev.tech/superdev_cover.png`,
+      },
+
+      {
+        hid: 'tw-og-card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'tw-og-url',
+        property: 'twitter:url',
+        content: 'https://www.superdev.tech/',
+      },
+      {
+        hid: 'tw-og-title',
+        property: 'twitter:title',
+        content: `Superdev — Build Web/Mobile Apps and Data science works for your business`,
+      },
+      {
+        hid: 'tw-og-description',
+        property: 'twitter:description',
+        content: `We're a software development company in Bangkok, Thailand`,
+      },
+      {
+        hid: 'tw-og-image',
+        property: 'twitter:image',
+        content: `https://www.superdev.tech/superdev_cover.png`,
+      },
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [],
@@ -54,7 +115,7 @@ export default {
     seo: true,
     lazy: true,
     langDir: 'locales/',
-    defaultLocale: 'th',
+    defaultLocale: 'en',
     locales: [
       { name: 'English', code: 'en', iso: 'en-US', file: 'en.json' },
       { name: 'ภาษาไทย', code: 'th', iso: 'th-TH', file: 'th.json' },

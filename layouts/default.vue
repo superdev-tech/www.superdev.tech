@@ -87,30 +87,14 @@ export default {
       title: 'Vuetify.js',
     }
   },
-  mounted() {},
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
-    const localHead = this.$t('head')
-    return {
-      title: localHead.title,
-      htmlAttrs: {
-        ...i18nSeo.htmlAttrs,
-      },
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        ...localHead.meta,
-        ...i18nSeo.meta,
-      ],
-      link: [
-        {
-          rel: 'icon',
-          type: 'image/x-icon',
-          href: '/favicon.ico',
-        },
-        ...i18nSeo.link,
-      ],
-    }
+    console.log({ i18nSeo })
+    return i18nSeo.htmlAttrs.lang === 'th-TH'
+      ? {
+          title: `ซูเปอร์เดฟ — รับพัฒนาซอฟต์แวร์ตามความต้องการของลูกค้าทั้งเว็บไซต์และแอปพลิเคชันแบบครบวงจร`,
+        }
+      : null
   },
 }
 </script>
