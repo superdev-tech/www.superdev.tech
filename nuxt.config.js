@@ -93,7 +93,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: ['~/plugins/vue-fb-customer-chat.js'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -168,5 +168,6 @@ export default {
   },
   publicRuntimeConfig: {
     apiSecret: process.env.API_SECRET,
+    facebookPageID: process.env.FACEBOOK_PAGE_ID,
   },
 }
