@@ -36,6 +36,11 @@ export default {
         content: 'https://www.superdev.tech/',
       },
       {
+        hid: 'fb-og-url-th',
+        property: 'og:url',
+        content: 'https://www.superdev.tech/th',
+      },
+      {
         hid: 'fb-og-title',
         property: 'og:title',
         content: `Superdev — Build Web/Mobile Apps and Data science works for your business`,
@@ -50,7 +55,6 @@ export default {
         property: 'og:image',
         content: `https://www.superdev.tech/superdev_cover.png`,
       },
-
       {
         hid: 'tw-og-card',
         property: 'twitter:card',
@@ -60,6 +64,11 @@ export default {
         hid: 'tw-og-url',
         property: 'twitter:url',
         content: 'https://www.superdev.tech/',
+      },
+      {
+        hid: 'tw-og-url-th',
+        property: 'twitter:url',
+        content: 'https://www.superdev.tech/th',
       },
       {
         hid: 'tw-og-title',
