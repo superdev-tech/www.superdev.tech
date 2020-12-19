@@ -1,18 +1,16 @@
 <template>
-  <v-app>
-    <Topbar />
+  <v-app style="background: #162027">
     <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <Topbar />
+      <nuxt />
+      <Footer />
     </v-main>
-    <Footer />
   </v-app>
 </template>
 
 <script>
-import Topbar from '~/components/pages/index/Topbar'
-import Footer from '~/components/pages/index/Footer'
+import Topbar from '~/components/layouts/default/Topbar'
+import Footer from '~/components/layouts/default/Footer'
 
 export default {
   components: {
